@@ -18,3 +18,21 @@ Admin and user signin
 2)JWT -  password Authentification
 3)SIgnin - Router
 4)Admin folder - Controler and Router
+
+Admin Layout
+1) npx create react app "app name"
+2) npm install react boostrap
+3)npm install react-router-dom
+4)google fonts
+5)boostrap cdn
+6) React-boostrap - navbar
+7) App.js Navbar'
+8)Src - components
+9) Src - Containers
+10) Src-components-layout-index.js
+11)Src-Header-index.js
+12) Container-Home-index.js
+13) container- Signin-index.js
+14) Container-Signup - index.js
+15) App.js - react-router-dom
+16) Src - component - UI -Input -index.js- props
