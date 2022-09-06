@@ -36,3 +36,8 @@ Admin Layout
 14) Container-Signup - index.js
 15) App.js - react-router-dom
 16) Src - component - UI -Input -index.js- props
+
+Api Request Validation
+1)express-validator
+2)From routes - auth.js - signup to controler
+3) Validation-auth.js
