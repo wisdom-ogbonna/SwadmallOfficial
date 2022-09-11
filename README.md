@@ -41,3 +41,11 @@ Api Request Validation
 1)express-validator
 2)From routes - auth.js - signup to controler
 3) Validation-auth.js
+
+Categories and Sub Categories Rest Api
+
+1) routh-category
+2) model-category
+3) controler- category-npm install --save slugify
+4 ) Check authentification: only loggedin user can create category
+5) common-middleware
