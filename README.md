@@ -49,3 +49,13 @@ Categories and Sub Categories Rest Api
 3) controler- category-npm install --save slugify
 4 ) Check authentification: only loggedin user can create category
 5) common-middleware
+
+Product Creation Api
+1) routes
+2)model
+3)Contoler
+4) common-middleware
+5) npm install multer - For file upload - others are formidable, file-uploader
+6) npm install -- save shortid - create unique id for your files
+7)controler - product.js const shortid = require('shortid');
+8)routes - product.js- const multer  = require('multer')
