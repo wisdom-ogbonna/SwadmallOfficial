@@ -59,3 +59,12 @@ Product Creation Api
 6) npm install -- save shortid - create unique id for your files
 7)controler - product.js const shortid = require('shortid');
 8)routes - product.js- const multer  = require('multer')
+
+Add product to cart api
+1) controler - cart.js
+2) routes - cart.js
+3) model - cart.js
+4) findOneAndUpdate - controller - cart.js: helps to update the add to cart 
+
+Fix Cart Api & Update Category Api
+1) expose static file from index.server.js
