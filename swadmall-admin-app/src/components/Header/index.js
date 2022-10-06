@@ -24,14 +24,14 @@ function Header() {
                         {/* <Nav.Link href="#deets">Home</Nav.Link>
                         <Nav.Link href="#deets">Signin</Nav.Link>
                         <Nav.Link href="#deets">Signup</Nav.Link> */}
-                        <li class="nav-item">
-                            <NavLink class="nav-link" to='/'>Home</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to='/'>Home</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <NavLink class="nav-link" to='signin'>Signin</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to='signin'>Signin</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <NavLink class="nav-link" to='signup'>Signup</NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to='signup'>Signup</NavLink>
                         </li>
                     </Nav>
                 </Navbar.Collapse>

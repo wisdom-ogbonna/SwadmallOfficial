@@ -68,3 +68,21 @@ Add product to cart api
 
 Fix Cart Api & Update Category Api
 1) expose static file from index.server.js
+
+ Admin Redux Store Setup
+ 1) Store setup
+ 2) State Setup
+ 3) Store helps to manage the state of application
+ 4) Libraries required to create store
+ 5) npm install redux - helps to create store
+ 5) npm install react-redux - connect component to store
+ 6) npm install react-thunk - make api call asyncroniously
+ 7) create folder for store management - src - store
+ 8) create folder for actions - src - actions
+ 9)create folder for reducers - src - reducers
+ 10) create store-index.js
+ 11) index.js - import store
+ 12) reducers - index.js
+13) actions - auth.actions.js
+14) actions - constants.js
+15) actions - index.js
