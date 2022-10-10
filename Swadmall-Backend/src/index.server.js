@@ -3,6 +3,7 @@ const env = require('dotenv');
 const app = express();
 const mongoose = require('mongoose');
 const path = require('path');
+const cors = require('cors');
 //Routs
 const authRoutes = require('./routes/auth');
 const adminRoutes = require('./routes/admin/auth');
@@ -19,6 +20,7 @@ env.config();
 mongoose.connect(`mongodb+srv://Swadmall:${process.env.MONGO_DB_PASSWORD}@swadmall.3ktunnd.mongodb.net/?retryWrites=true&w=majority`,
 ).then(() => { console.log('Database Connected')})
 
+app.use(cors());
 app.use(express.json());
 app.use('/public', express.static(path.join(__dirname, 'uploads')));
 app.use('/api', authRoutes);

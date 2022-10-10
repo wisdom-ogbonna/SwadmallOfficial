@@ -86,3 +86,16 @@ Fix Cart Api & Update Category Api
 13) actions - auth.actions.js
 14) actions - constants.js
 15) actions - index.js
+
+Admin Login & Private Route
+1) create the helpers folder
+2) install axios for API calls
+3) axios.js - helpers
+4) urlConfig.js
+5) add http://localhost:2000 to urlConfig.js
+6) useState in signin.js is a hook that helps to create a state in function component
+7) from signin.js - value - Input 
+8) from signin.js -onChange - Input
+9) install cores
+10) For private Route - Create HOC - AdminApp - Src - Component - HOC - PrivateRoute.js
+11) App.js - setup private route
