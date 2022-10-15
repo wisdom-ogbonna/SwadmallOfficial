@@ -99,3 +99,12 @@ Admin Login & Private Route
 9) install cores
 10) For private Route - Create HOC - AdminApp - Src - Component - HOC - PrivateRoute.js
 11) App.js - setup private route
+
+Admin Signout and Signup
+1) userauthentification - signin - useEffect
+2) useSelector - signup.js for private route
+3) Container - home- style.css
+4) Header - index.js - renderLoggedInLinks: this views for only logged in users
+5) action - constants.js
+6) action - user.actions.js
+7) reducer - user.reducer.js

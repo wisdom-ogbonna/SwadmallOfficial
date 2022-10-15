@@ -16,12 +16,11 @@ const Signin = (props) => {
   const [password, setPassword] = useState('');
   const [error, seterror] = useState('');
   const auth = useSelector(state => state.auth);
+  const user = useSelector(state => state.user);
 
   const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(isUserLoggedIn());
 
-  }, []);
+
   
   const userLogin = (e) => {
     e.preventDefault();
@@ -36,6 +35,12 @@ const Signin = (props) => {
   if(auth.authenticate){
     return <Redirect to={'/'}/>
   }
+  if(user.loading){
+
+    return <p>Loading ..!</p>
+
+  }
+  
   return (
     <Layout>
       <Container>

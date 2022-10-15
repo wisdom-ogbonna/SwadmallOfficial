@@ -1,6 +1,7 @@
 import axios from "../helpers/axios";
 import { authConstants } from "./constants";
 
+
 export const login = (user) => {
 
     console.log(user);
@@ -39,6 +40,42 @@ export const login = (user) => {
     // });
     }
 }
+// export const signup = (user) => {
+
+//     console.log(user);
+
+//     return async (dispatch) => {
+//         dispatch({ type: authConstants.LOGIN_REQUEST});
+//         const res = await axios.post('/admin/signup', {
+//             ...user
+//         });
+
+//         if(res.status === 201){
+//             const { message } = res.data;
+//             dispatch({
+//                 type: authConstants.LOGIN_SUCCESS,
+//                 payload: {
+//                     token, user
+//                 }
+//             });
+//         }else{
+//             if(res.status === 400){
+//                 dispatch({
+//                     type: authConstants.LOGIN_FAILURE,
+//                     payload: { error: res.data.error }
+//                 });
+//             }
+
+//         }
+
+//     //     dispatch({ 
+//     //     type: authConstants.LOGIN_REQUEST,
+//     //     payload: {
+//     //         ...user
+//     //     }
+//     // });
+//     }
+// }
 
 export const isUserLoggedIn = () => {
     return async dispatch => {
@@ -61,4 +98,18 @@ export const isUserLoggedIn = () => {
 
         }
     }
+}
+
+
+
+export const signout = () => {
+    return async dispatch => {
+        localStorage.clear();
+        dispatch({
+            type: authConstants.LOGOUT_REQUEST
+
+        });
+
+    }
+
 }
