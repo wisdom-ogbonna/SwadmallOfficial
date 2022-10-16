@@ -108,3 +108,9 @@ Admin Signout and Signup
 5) action - constants.js
 6) action - user.actions.js
 7) reducer - user.reducer.js
+
+Signout Api & Admin Dashboard
+1) private route for Order and product in App.js
+2) Routs in Home - index.js
+3) Container - product - index.js
+4) Container - orders - index.js

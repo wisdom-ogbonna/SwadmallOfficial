@@ -1,18 +1,13 @@
 import axios from 'axios';
 import { api } from '../urlConfig';
-const axiosInstace = axios.create({
+
+const token = window.localStorage.getItem('token');
+
+const axiosIntance = axios.create({
     baseURL: api,
-})
+    headers: {
+        'Authorization': token ? `Bearer ${token}` : ''
+    }
+});
 
-
-
-// import axios from 'axios';
-// const axiosInstace = axios.create({
-//     baseURL: api,
-//     // headers: {
-//     //     'Authorization' 
-//     // }
-
-// });
-
-export default axiosInstace 
+export default axiosIntance;
