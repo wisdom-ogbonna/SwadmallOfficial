@@ -114,3 +114,14 @@ Signout Api & Admin Dashboard
 2) Routs in Home - index.js
 3) Container - product - index.js
 4) Container - orders - index.js
+
+Show and Add Categories
+1) src - actions - category.action.js
+2) src - actions - order.action.js
+3) src - actions - product.action.js
+4) src - reducer - category.reducer.js
+5) src - reducer - product.reducer.js
+6) src - reducer - order.reducer.js
+7) src - container - Category
+8) src - container - Order
+9) src - container - Product
