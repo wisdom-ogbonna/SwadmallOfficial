@@ -125,3 +125,11 @@ Show and Add Categories
 7) src - container - Category
 8) src - container - Order
 9) src - container - Product
+
+ Categories and Product display
+ 1) remove useEffedt from Category.js
+ 2) Add dispatch(getAllCategory()); to App.js
+ 3) src  - components - UI
+ 4) import table from react botsrap to src - container - product - index
+ 5) Swadmall-Backend - src -controller - admin - initialData.js
+ 6) Swadmall-Backend - src - routes - admin - initialData.js

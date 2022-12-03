@@ -6,10 +6,11 @@ import Signin from './containers/Signin';
 import Signup from './containers/Signup';
 import PrivateRoute from './components/HOC/PrivateRoute'
 import { useDispatch, useSelector } from 'react-redux';
-import { isUserLoggedIn } from './actions';
+import { isUserLoggedIn, getAllCategory, getInitialData } from './actions';
 import products from './containers/Products';
 import orders from './containers/Orders';
 import Category from './containers/Category';
+
 
 
 
@@ -22,8 +23,8 @@ function App() {
   useEffect(() => {
     if(!auth.authenticate){
       dispatch(isUserLoggedIn());
-
     }
+  dispatch(getInitialData());
  
 
   }, []);
