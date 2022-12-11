@@ -133,3 +133,6 @@ Show and Add Categories
  4) import table from react botsrap to src - container - product - index
  5) Swadmall-Backend - src -controller - admin - initialData.js
  6) Swadmall-Backend - src - routes - admin - initialData.js
+
+ Improvement & Product Details
+ 1) Reuseable models
