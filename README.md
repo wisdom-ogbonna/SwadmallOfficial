@@ -136,3 +136,10 @@ Show and Add Categories
 
  Improvement & Product Details
  1) Reuseable models
+
+Flipkart Categories Dropdown
+1) npx create-react-app wcommerce
+2) npm i --save react-router-dom react-redux(state management) redux-thunk axios(api calls)
+3) wcommerce - index.js - import provider from "react-thunk"
+4)wcommerce - index.js - import store from './store
+5)wcommerce - containers
